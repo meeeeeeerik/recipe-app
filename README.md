@@ -2,6 +2,8 @@
 
 A modern recipe discovery app built with React, TypeScript, MobX, and Material UI.
 
+🚀 **Live demo:** [recipe-app-project-by-merdan.netlify.app](https://recipe-app-project-by-merdan.netlify.app/)
+
 ## Tech Stack
 
 - **React 18** + **TypeScript**
@@ -32,6 +34,7 @@ npm run dev
 ## MobX Store — recipeStore
 
 All state lives in one reactive store:
+
 - `filteredRecipes` — computed, reacts to all filter changes
 - `favoriteRecipes` — computed list of saved recipes
 - `toggleFavorite()` — persists to localStorage
